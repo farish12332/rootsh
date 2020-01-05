@@ -1,40 +1,22 @@
 clear
 sleep 1
-figlet START ROOT WITH TERMUX
-sleep 1
-echo "install supersu.zip"
+echo "install termux root"
 echo
 sleep 1
 echo "install root"
 sleep 1
-echo "install apk"
+echo "termux root progres"
 sleep 1
-echo "100%<[===========]>"
+echo "100%<[===========]>sukses"
 sleep 1
-echo "all suksesfull installed"
-sleep 2
+echo "suksesfull installed termux root"
+sleep 1
 echo -----------------------------------------------------------------
-echo                 supersu all install...done
+echo                 termux all install...done
 echo -----------------------------------------------------------------
 figlet ROOT SUKSES | lolcat
-echo ".        ╔═══════════╗
-   ╔═╝███████████╚═╗
-╔╝███████████████╚╗
-║█████████████████║
-║█████████████████║
-║█████████████████║
-║█╔█████████████╗█║
-╚╦╝███▒▒███▒▒███╚╦╝
-╔╝██▒▒▒▒███▒▒▒▒██╚╗
-║██▒▒▒▒▒███▒▒▒▒▒██║
-║██▒▒▒▒█████▒▒▒▒██║
-╚╗███████████████╔╝
-╔═╬══╦╝██▒█▒██╚╦══╝.▒..
-║█║══║█████████║　...▒.
-║█║══║█║██║██║█║　.▒..
-║█║══╚═╩══╩╦═╩═╩═╦╗▒.
-╔╝█╚══╦═╦══╦╩═╦═╦═╩╝
-╔╝█████║█║██║██║█║
-║██████║█████████║" | lolcat
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+echo figlet root sukses | lolcat
+./start-kali.sh
 echo
 echo
